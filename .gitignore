@@ -1,0 +1,14 @@
+# Binaries
+bin/**
+bin-int/**
+Source/obj/**
+
+# Nuget
+Source/Packages/**
+
+# Visual Studio files and folder
+.vs/
+**.sln
+**.csproj
+**.csproj.filters
+**.csproj.user
