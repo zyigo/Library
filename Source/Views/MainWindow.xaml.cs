@@ -1,6 +1,6 @@
 ﻿using System.Windows;
 
-namespace Prism_WPF_Template.Views
+namespace Library.Views
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml

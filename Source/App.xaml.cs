@@ -1,9 +1,9 @@
-﻿using Prism_WPF_Template.Views;
+﻿using Library.Views;
 using Prism.Ioc;
 using Prism.Modularity;
 using System.Windows;
 
-namespace Prism_WPF_Template
+namespace Library
 {
     /// <summary>
     /// Interaction logic for App.xaml
