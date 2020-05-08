@@ -4,6 +4,7 @@
 	     xmlns:prism="http://prismlibrary.com/"
              xmlns:local="clr-namespace:Library">
     <Application.Resources>
-         
+        <!-- Attach default Theme -->
+        <ResourceDictionary Source="pack://application:,,,/Fluent;Component/Themes/Generic.xaml" />
     </Application.Resources>
 </prism:PrismApplication>
