@@ -27,7 +27,7 @@ targetdir ("../bin/" .. outputdir) -- "/%{prj.name}")
 	objdir ("../bin-int/" .. outputdir) -- "/%{prj.name}")
 
 dofile "NugetReferences.lua"
---links {"Library.Browser"}
+links {"Library.Modules.Browser"}
 
 files{
 "../%{MainFolder}/Source/**.cs",

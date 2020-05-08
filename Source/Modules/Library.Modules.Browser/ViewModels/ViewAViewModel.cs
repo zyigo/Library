@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Library.Browser.ViewModels
+namespace Library.Modules.Browser.ViewModels
 {
     public class ViewAViewModel : BindableBase
     {

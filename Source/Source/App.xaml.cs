@@ -1,7 +1,9 @@
 ﻿using Library.Views;
 using Prism.Ioc;
 using Prism.Modularity;
+using System.Reflection;
 using System.Windows;
+using Library.Modules.Browser;
 
 namespace Library
 {
@@ -17,7 +19,12 @@ namespace Library
 
         protected override void RegisterTypes(IContainerRegistry containerRegistry)
         {
+            
+        }
 
+        protected override void ConfigureModuleCatalog(IModuleCatalog moduleCatalog)
+        {
+            moduleCatalog.AddModule<BrowserModule>();
         }
     }
 }

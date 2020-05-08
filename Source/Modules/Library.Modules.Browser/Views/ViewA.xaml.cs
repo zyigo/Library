@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Library.Browser.Views
+namespace Library.Modules.Browser.Views
 {
     /// <summary>
     /// Interaction logic for ViewA.xaml
