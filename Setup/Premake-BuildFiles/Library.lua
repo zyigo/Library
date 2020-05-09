@@ -1,15 +1,12 @@
 project "Library"
 	kind "WindowedApp"
-	location "../../%{MainFolder}/Library"
+	location "../../%{MainFolder}/%{prj.name}"
 	language "C#"
 	flags{"WPF"}
 	targetdir ("../../bin/" .. outputdir)
 	objdir ("../../bin-int/" .. outputdir)
-
-	nuget {"Prism.DryIoc:7.2.0.1422"}
-	nuget {"Fluent.Ribbon:7.1.0"}
 	
-	
+	LoadNuget("Library","../NugetPackages.txt")
 
 	files{
 	"../../%{MainFolder}/%{prj.name}/**.cs",

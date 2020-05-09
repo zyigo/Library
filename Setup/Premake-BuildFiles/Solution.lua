@@ -2,6 +2,8 @@
 MainFolder = "Source"
 ModuleFolder = "Library.Modules"
 
+-- load functions
+dofile "Functions.lua"
 
 workspace "Library"
 	location "../.."
@@ -28,7 +30,8 @@ workspace "Library"
 	-- Build Library.Core
 	dofile "Library.Core.lua"	
 
-	-- Build Library.Modules
+	-- Build Modules
 	group "Modules"
+	ModuleFolder = "%{wks.name}.Modules"
 		-- Build Browser
 		dofile "Library.Module.Browser.lua"

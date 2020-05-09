@@ -6,7 +6,7 @@ project "Library.Core"
 			targetdir ("../../bin/" .. outputdir)
 			objdir ("../../bin-int/" .. outputdir)
 
-			nuget {"Prism.WPF:7.2.0.1422"}
+			LoadNuget("Library.Core","../NugetPackages.txt")
 
 			files {
 				"../../%{MainFolder}/%{prj.name}/**.cs",

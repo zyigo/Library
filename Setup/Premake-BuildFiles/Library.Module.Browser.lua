@@ -6,8 +6,8 @@ project "Library.Modules.Browser"
 			targetdir ("../../bin/" .. outputdir)
 			objdir ("../../bin-int/" .. outputdir)
 
-			nuget {"Prism.WPF:7.2.0.1422"}
-			
+			LoadNuget("Library.Modules.Browser","../NugetPackages.txt")
+
 			-- Project Links
 			links("Library.Core")
 
