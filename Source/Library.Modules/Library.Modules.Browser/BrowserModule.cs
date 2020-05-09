@@ -1,4 +1,5 @@
-﻿using Library.Modules.Browser.Views;
+﻿using Library.Core;
+using Library.Modules.Browser.Views;
 using Prism.Ioc;
 using Prism.Modularity;
 using Prism.Regions;
@@ -16,7 +17,7 @@ namespace Library.Modules.Browser
 
         public void OnInitialized(IContainerProvider containerProvider)
         {
-            _regionManager.RegisterViewWithRegion("MainRegion", typeof(ViewA));
+            _regionManager.RegisterViewWithRegion(RegionNames.ContentRegion, typeof(ViewA));
         }
 
         public void RegisterTypes(IContainerRegistry containerRegistry)

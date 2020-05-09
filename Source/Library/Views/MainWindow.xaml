@@ -4,6 +4,7 @@
         xmlns:prism="http://prismlibrary.com/"
         prism:ViewModelLocator.AutoWireViewModel="True"
         xmlns:Fluent="urn:fluent-ribbon"
+       xmlns:core="clr-namespace:Library.Core;assembly=Library.Core"
         Title="{Binding Title}"
          Width="800" Height="600">
     <Grid>
@@ -29,7 +30,7 @@
         </Fluent:Ribbon>
 
         <Grid Grid.Row="1">
-            <ContentControl prism:RegionManager.RegionName="MainRegion"/>
+            <ContentControl prism:RegionManager.RegionName="{x:Static core:RegionNames.ContentRegion}"/>
         </Grid>
     </Grid>
 </Fluent:RibbonWindow>
