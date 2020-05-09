@@ -23,14 +23,14 @@
             <!--Tabs-->
             <Fluent:RibbonTabItem Header="Home">
                 <Fluent:RibbonGroupBox Header="Group">
-                    <Fluent:Button Header="Green"/>
-                    <Fluent:Button Header="Grey"/>
+                    <Fluent:Button Header="ViewA" Click="Green_Button_Click"/>
+                    <Fluent:Button Header="PDF" Click="Button_Click"/>
                 </Fluent:RibbonGroupBox>
             </Fluent:RibbonTabItem>
         </Fluent:Ribbon>
 
         <Grid Grid.Row="1">
-            <ContentControl prism:RegionManager.RegionName="{x:Static core:RegionNames.ContentRegion}"/>
+        <ContentControl prism:RegionManager.RegionName="{x:Static core:RegionNames.ContentRegion}"/>
         </Grid>
     </Grid>
 </Fluent:RibbonWindow>

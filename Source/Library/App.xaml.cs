@@ -4,6 +4,7 @@ using Prism.Modularity;
 using System.Reflection;
 using System.Windows;
 using Library.Modules.Browser;
+using Library.Modules.PDFViewer;
 
 namespace Library
 {
@@ -25,6 +26,7 @@ namespace Library
         protected override void ConfigureModuleCatalog(IModuleCatalog moduleCatalog)
         {
             moduleCatalog.AddModule<BrowserModule>();
+            moduleCatalog.AddModule<PDFViewerModule>();
         }
     }
 }

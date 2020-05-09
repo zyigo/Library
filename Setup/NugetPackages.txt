@@ -1,7 +1,10 @@
 FIRST_IMPORT:Prism.DryIoc:7.2.0.1422
 FIRST_IMPORT:Fluent.Ribbon:7.1.0
 FIRST_IMPORT:Prism.WPF:7.2.0.1422
+FIRST_IMPORT:CefSharp.Wpf:79.1.360
 Library:Prism.DryIoc:7.2.0.1422
 Library:Fluent.Ribbon:7.1.0
 Library.Core:Prism.WPF:7.2.0.1422
 Library.Modules.Browser:Prism.WPF:7.2.0.1422
+Library.Modules.PDFViewer:Prism.WPF:7.2.0.1422
+Library.Modules.PDFViewer:CefSharp.Wpf:79.1.360

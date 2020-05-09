@@ -1,4 +1,5 @@
 ﻿using Prism.Mvvm;
+using System.Diagnostics.SymbolStore;
 
 namespace Library.ViewModels
 {
@@ -10,7 +11,7 @@ namespace Library.ViewModels
             get { return _title; }
             set { SetProperty(ref _title, value); }
         }
-
+        
         public MainWindowViewModel()
         {
 

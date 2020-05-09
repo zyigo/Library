@@ -27,6 +27,9 @@ workspace "Library"
 	-- Build Library
 	dofile "Library.lua"
 
+	-- Build Library.Business
+	dofile "Library.Business.lua"
+
 	-- Build Library.Core
 	dofile "Library.Core.lua"	
 
@@ -35,3 +38,6 @@ workspace "Library"
 	ModuleFolder = "%{wks.name}.Modules"
 		-- Build Browser
 		dofile "Library.Module.Browser.lua"
+		
+		-- Build PDF Viewer
+		dofile "Library.Module.PDFViewer.lua"

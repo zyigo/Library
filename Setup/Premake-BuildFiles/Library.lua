@@ -18,7 +18,9 @@ project "Library"
 
 	-- Links to Projects
 	links {"Library.Modules.Browser"}
+	links {"Library.Modules.PDFViewer"}
 	links {"Library.Core"}
+	links {"Library.Business"}
 
 	-- Default System Links
 	links ("Microsoft.CSharp")
